@@ -1,6 +1,6 @@
-## NetWorking
+# NetWorking
 
-# What is Networking - 
+## What is Networking - 
     
       The process of connecting devices to exchange data and share resources.
       That is also called Internet 
