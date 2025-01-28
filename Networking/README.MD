@@ -11,3 +11,9 @@
                 2.MAN (Metropolitan Area Network) - Network in a City 
                 3.LAN (Local Area Network) - Network in a Local Area like House
                 4.PAN(Personal Area Network ) - Small network that connects devices near a person
+
+
+## OSI & TCP IP Model    
+     
+### OSI MODEL (Open System Interconnection)     
+
