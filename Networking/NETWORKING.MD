@@ -48,3 +48,27 @@ This layer decides the best route to deliver the data. It uses IP addresses to d
 
 ##### 4. Network Layer
 This is a hardware layer that includes two layers of the OSI model: Data-Link and Physical.
+
+#### Commonly Used Protocols and Their Port Numbers in DevOps:
+
+##### 1. HTTP and HTTPS
+HTTP (Hypertext Transfer Protocol): Port 80
+Used for transmitting web pages over the internet.
+HTTPS (HTTP Secure): Port 443
+An extension of HTTP that uses encryption for secure communication.
+
+##### 2. File Transfer Protocols
+FTP (File Transfer Protocol): Port 21
+Used for transferring files between a client and server.
+SFTP (SSH File Transfer Protocol): Port 22
+A secure version of FTP that uses SSH for encryption.
+FTP Data Channel: Port 20
+Used for transferring file data in FTP.
+
+##### 3. Remote Access and Management
+SSH (Secure Shell): Port 22
+Used for secure remote login and command execution.
+
+##### 5. Domain Name System and Network Services
+DNS (Domain Name System): Port 53
+Resolves domain names to IP addresses.
