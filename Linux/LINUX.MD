@@ -32,3 +32,16 @@ Then i add another user in the same group like -
 
 ### we can edit  any file-folder group  ownership permission  using chown
                                     ex - chgrp devops demo.txt                                                             
+
+## Task 3 - Log File Analysis with AWK, Grep & Sed
+
+####                   we can filter from a file with a string using grep 
+#####                                        ex - grep -i "authentication error" app.log
+#####                                   by using pipe -   grep -i "authentication error" app.log| head -n 5
+
+####                     we can filter from a file with a string using awk 
+#####                                       ex - awk '/authentication error/{if($2 == 'jul') print $1,$2,$3}' app.log
+
+####                    we can modify in stream using a stream editer sed 
+#####                              ex - supposer we want to change authentication error to demo error so we can write 
+######                            sed "s/authentication error/demo error/g"  
