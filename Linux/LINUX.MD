@@ -20,4 +20,15 @@ Then i add users in the group like -
 
 Then i add another user in the same group like - 
 
-                         sudo usermod -aG devops aiyer                            
+                         sudo usermod -aG devops aiyer          
+
+## Task 2 - File & Directory Permissions
+
+### we can edit  any file-folder access permission  using "chmod"
+                                    ex - chmod 777 text.txt 
+
+### we can edit  any file-folder ownership permission  using chown
+                                    ex - chwon aiyer demo.txt 
+
+### we can edit  any file-folder group  ownership permission  using chown
+                                    ex - chgrp devops demo.txt                                                             
