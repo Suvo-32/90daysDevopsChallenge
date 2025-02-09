@@ -45,3 +45,4 @@ Then i add another user in the same group like -
 ####                    we can modify in stream using a stream editer sed 
 #####                              ex - supposer we want to change authentication error to demo error so we can write 
 ######                            sed "s/authentication error/demo error/g"  
+ab
